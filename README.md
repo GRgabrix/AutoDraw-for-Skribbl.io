@@ -31,7 +31,6 @@ Questo progetto permette di caricare un'immagine, convertirla in pixel art con u
    - Scarica l'ultima versione disponibile e decomprimila
    - Apri chrome://extensions/ e clicca su "Carica estensione non pacchetizzata"
    - Seleziona la cartella decompressa
-   - Sei pronto per disegnare delle opere d'arte
 
 1. **Drag & Drop**
 
