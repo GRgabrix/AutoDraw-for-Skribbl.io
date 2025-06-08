@@ -27,14 +27,17 @@ Questo progetto permette di caricare un'immagine, convertirla in pixel art con u
 
 1. **Installazione**
 
-   - Scarica la cartella e decomprimila
-   - apri chrome://extensions/ e clicca su "Carica estensione non pacchetizzata"
+   - Vai nella sezione dei rilasci
+   - Scarica l'ultima versione disponibile e decomprimila
+   - Apri chrome://extensions/ e clicca su "Carica estensione non pacchetizzata"
+   - Seleziona la cartella decompressa
+   - Sei pronto per disegnare delle opere d'arte
 
-2. **Drag & Drop**
+1. **Drag & Drop**
 
    Trascinare un'immagine sopra il canvas di gioco (il campo dove il giocatore può disegnare). Apparirà un overlay "Rilascia l'immagine qui" che scompare al rilascio e avvierà la conversione + disegno.
 
-3. **Fatto!**
+2. **Fatto!**
 
    Lo script gestisce:
    - Conversione del disegno in PixelArt con la palette di colori messa a disposizione del giocatore.
