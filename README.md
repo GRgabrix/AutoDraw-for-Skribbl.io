@@ -55,10 +55,10 @@ Questo progetto permette di caricare un'immagine, convertirla in pixel art con u
   `selectTool(toolName)`, `selectSize(sizeIndex)`, `selectColor(colorRgb)` per simulare la scelta di strumenti, dimensioni pennello e colori sulla toolbar di skribbl.io.
 
 - **Funzione `drawLine`**  
-  Simula un tratto orizzontale sul canvas tramite eventi pointer per disegnare più pixel contigui in un unico movimento.
+  Simula un tratto orizzontale, verificale o diagonale sul canvas tramite eventi pointer per disegnare più pixel contigui in un unico movimento.
 
 - **Funzione `drawPixelMatrix`**  
-  Riceve l'array di pixel art, identifica il colore di sfondo, riempie il canvas e disegna i pixel restanti raggruppandoli per colore e per riga.
+  Riceve l'array di pixel art, identifica il colore di sfondo, riempie il canvas e disegna i pixel restanti raggruppandoli in linee dello stesso colore il più lunghe possibile, disegnandole dalle più lunghe alle più corte per dare una forma iniziale al disegno e progressivamente aumentando i dettagli dell'immagine finale.
 
 - **Drag & drop**  
   Gestisce l'interazione di trascinamento e rilascio immagine sul canvas, mostrando un overlay visivo e attivando il disegno.
@@ -75,13 +75,6 @@ Questo progetto permette di caricare un'immagine, convertirla in pixel art con u
 
 ---
 
-## Compatibilità
-
-- Testato su skribbl.io con interfaccia attuale.
-- Richiede supporto per Pointer Events e accesso al canvas di gioco.
-
----
-
 ## Possibili miglioramenti da apportare
 
 - Ottimizzazione della velocità e gestione di tecniche avanzate in fase di disegno.
@@ -90,12 +83,8 @@ Questo progetto permette di caricare un'immagine, convertirla in pixel art con u
 
 ## Licenza
 
-Il codice è open-source e può essere modificato e distribuito liberamente.
+Il codice è open-source e può essere modificato e distribuito liberamente in forma gratuita.
 
 ---
 
 Se hai domande o vuoi contribuire, scrivi pure!
-
----
-
-*Script sviluppato per facilitare la creazione di pixel art su skribbl.io tramite automazione browser.*
